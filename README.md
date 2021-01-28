@@ -20,7 +20,6 @@ Publish the website in the given URL.
 
 
 ## PROGRAM:
-```
 
 ## CYLINDERVOLUME.HTML:
 ```
@@ -70,8 +69,8 @@ Publish the website in the given URL.
 </html>
 
 ```
-## CYLINDERVOLUME.JS:
-```
+## CYLINDERVOLUME.JS
+
 volumeBtn = document.querySelector('#button_volume');
 
 volumeBtn.addEventListener('click',function(e){
@@ -87,7 +86,6 @@ volumeBtn.addEventListener('click',function(e){
     txtResult.value = V;
 });
 
-```
 ## RECTANGLEAREA.HTML:
 ```
 {% load static %}
@@ -150,23 +148,21 @@ addBtn.addEventListener('click',function(e){
     txtC.value = c;
 });
 
-
 ## OUTPUT:
-```
+
 ![output](.static/img/output1.jpg)
 
 ![output](.static/img/output2.jpg)
 
-```
+
 ## CODE VALIDATION REPORT:
-```
+
 ![output](.static/img/report1.jpg)
 
 ![output](.static/img/report2.jpg)
 
 
 ## RESULT:
-
 
 Thus a website is designed for the calculation of volume of cylinder using JavaScript and is hosted in the URL http://kayalvizhi.student.saveetha.in:8000/cylindervolume/. HTML code is validated.
  
