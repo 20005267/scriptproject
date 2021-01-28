@@ -152,9 +152,9 @@ addBtn.addEventListener('click',function(e){
 
 ## OUTPUT:
 
-![output](.static/img/o1.jpg)
+![output](.static/img/output1.jpg)
 
-![output](.static/img/o2.jpg)
+![output](.static/img/output2.jpg)
 
 
 ## CODE VALIDATION REPORT:
@@ -168,6 +168,6 @@ addBtn.addEventListener('click',function(e){
 
 Thus a website is designed for the calculation of volume of cylinder using JavaScript and is hosted in the URL http://kayalvizhi.student.saveetha.in:8000/cylindervolume/. HTML code is validated.
  
-Thua a website is designed ffor the calculation off area of rectangle using JavaScript and hosted in the URL http://kayalvizhi.student.saveetha.in:8000/
+Thus a website is designed for the calculation of area of rectangle using JavaScript and is hosted in the URL http://kayalvizhi.student.saveetha.in:8000/
 rectanglearea/. HTML code is vaalidated.
 
