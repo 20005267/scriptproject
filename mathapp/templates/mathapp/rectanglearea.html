@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AREA OF RECTANGLE</title>
+    <link rel="stylesheet" href="{% static 'css/rectangleareascript.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+               AREA OF RECTANGLE 
+            </div>
+            <div class="content">
+                <form action="/rectanglearea/" method="GET">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <label for="value_a">Length=</label>
+                        <input type="text" name="value_a" id="value_a">
+                    </div>
+                    <div  class="forminput">
+                        <label for="value_b">Breadth=</label>
+                        <input type="text" name="value_b" id="value_b">
+                    </div>                    
+                    <div class="forminput">
+                        <button type="button" name="button_calculate" id="button_calculate">calculate</button>
+                    </div>
+                    <div  class="forminput">
+                        <label for="value_c">Area=</label>
+                        <input type="text" name="value_c" id="value_c" readonly>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/rectangleareascript.js"></script>
+</body>
+
+</html>
