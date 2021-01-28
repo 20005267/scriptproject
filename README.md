@@ -70,7 +70,7 @@ Publish the website in the given URL.
 
 ```
 ## CYLINDERVOLUME.JS
-
+```
 volumeBtn = document.querySelector('#button_volume');
 
 volumeBtn.addEventListener('click',function(e){
@@ -85,7 +85,7 @@ volumeBtn.addEventListener('click',function(e){
 
     txtResult.value = V;
 });
-
+```
 ## RECTANGLEAREA.HTML:
 ```
 {% load static %}
@@ -129,7 +129,7 @@ volumeBtn.addEventListener('click',function(e){
 </body>
 
 </html>
-
+```
 
 ## RECTANGLEAREA.JS:
 ```
@@ -147,6 +147,7 @@ addBtn.addEventListener('click',function(e){
 
     txtC.value = c;
 });
+```
 
 ## OUTPUT:
 
