@@ -132,6 +132,7 @@ volumeBtn.addEventListener('click',function(e){
 ```
 
 ## RECTANGLEAREA.JS:
+
 ```
 addBtn = document.querySelector('#button_calculate');
 
@@ -151,16 +152,16 @@ addBtn.addEventListener('click',function(e){
 
 ## OUTPUT:
 
-![output](.static/img/output1.jpg)
+![output](.static/img/o1.jpg)
 
-![output](.static/img/output2.jpg)
+![output](.static/img/o2.jpg)
 
 
 ## CODE VALIDATION REPORT:
 
-![output](.static/img/report1.jpg)
+![output](.static/img/r1.jpg)
 
-![output](.static/img/report2.jpg)
+![output](.static/img/r2.jpg)
 
 
 ## RESULT:
